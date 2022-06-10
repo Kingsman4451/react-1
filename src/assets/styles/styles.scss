@@ -1,0 +1,23 @@
+.navbar__item-link {
+  transition: color 0.3s ease;
+  &:hover {
+    color: #0D6EFD !important;
+  }
+}
+
+.home__content-text {
+  max-width: 500px;
+}
+
+.about__list-item {
+  max-width: 350px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: -6px 7px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+}
+
+.footer {
+  background-color: #20232A;
+}
